@@ -9,10 +9,6 @@ package A01;
 // contains?(value) returns true if the passed in value is in the list and otherwise returns false.
 // find(value) returns the index of the node containing value, or nil if not found.
 public class Main {
-    public void printList(LinkedList<Integer> list) {
-        for (int i = 0; i < list.size() - 1; i++) System.out.println(list.at(i));
-    }
-
     public static void main(String[] args) {
         LinkedList<Integer> list = new LinkedList<>();
 
