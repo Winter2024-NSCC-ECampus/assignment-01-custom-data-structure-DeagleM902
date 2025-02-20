@@ -46,5 +46,13 @@ public class Main {
         //Pop element
         list.pop();
         list.printList();
+
+        LinkedList<String> stringList = new LinkedList<>();
+
+        stringList.append("test1");
+        stringList.append("values");
+        stringList.append("added");
+
+        stringList.printList();
     }
 }
